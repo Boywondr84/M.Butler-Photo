@@ -4,47 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Margaret Butler Photography</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+        <title>Margaret Butler Photography</title>
   </head>
   <body>
-    <div id="header">
-      <div id="owner">
-        <p>
-          Margaret Butler
-          <br />
-          Photography
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="column column-10" id="headerSides">
+          <i data-feather="instagram"></i>
+          <i data-feather="facebook"></i>
+        </div>
+        <div class="column column-70" id="owner">Margaret Butler Photography</div>
+        <div class="column column-20" id="headerSides">2nd Exposure</div>
       </div>
-      <div id="navigation">
-        <nav>
-          <ul>
-            Headshot
-          </ul>
-          <ul>
-            Senior Portrait
-          </ul>
-          <ul>
-            Family / Pet
-          </ul>
-          <ul>
-            Contact
-          </ul>
-          <ul>
-            Order Photos
-          </ul>
-        </nav>
+    </div>
+      <div class="container">
+        <div class="row" id="navigation">
+          <div class="column">Professional Headshot</div>
+          <div class="column">Senior Portrait</div>
+          <div class="column">Family / Pet</div>
+          <div class="column">Contact</div>
+          <div class="column">Order Photos</div>
+        </div>
       </div>
-      <div id="owner2nd">
-        <h3>2nd Exposure</h3>
-      </div>
-      <!-- <div id="socialMedia">
-        <ul>
-          Instagram
-        </ul>
-        <ul>
-          Facebook
-        </ul>
-      </div> -->
     </div>
   </body>
+  <script>feather.replace();</script>
 </html>
