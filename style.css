@@ -1,3 +1,7 @@
+#header {
+  margin-bottom: 35px;
+}
+
 #owner {
   font-size: 32px;
   font-style: oblique;
@@ -9,7 +13,7 @@
 #headerSides {
   font-size: 22px;
   text-align: center;
-  margin-top: 41px;
+  margin-top: 39px;
 }
 
 #headerSides a {
@@ -18,37 +22,6 @@
 
 #navigation {
   text-align: center;
-}
-/* #navigation {
-  margin: 0 83px 0 83px;
-  padding: 0 50px 0 50px;
-} */
-
-/* nav {
-  display: flex;
-  flex-direction: row; */
-/* padding: 10px 185px 16px 185px; */
-/* font-size: 21px;
-  border-left: solid black 2px;
-  border-right: solid black 2px;
-}
-
-nav ul {
-  padding: 0 10px 0 10px;
-  align-self: center;
-  text-align: center;
-} */
-
-#owner2nd {
-  font-size: 25px;
-  font-style: oblique;
-  font-weight: 800;
-  margin-right: 28px;
-  margin-top: 22px;
-  width: 18%;
-}
-
-#socialMedia {
-  font-size: 19px;
-  margin-top: 31px;
+  border-top: 2px solid black;
+  padding-top: 12px;
 }
