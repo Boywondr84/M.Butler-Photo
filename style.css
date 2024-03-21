@@ -1,7 +1,3 @@
-#header {
-  display: inline-flex;
-}
-
 #owner {
   font-size: 32px;
   font-style: oblique;
@@ -11,9 +7,13 @@
 }
 
 #headerSides {
-  font-size: 17px;
+  font-size: 22px;
   text-align: center;
-  margin-top: 32px;
+  margin-top: 41px;
+}
+
+#headerSides a {
+  padding-right: 5px;
 }
 
 #navigation {
