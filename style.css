@@ -25,3 +25,14 @@
   border-top: 2px solid black;
   padding-top: 12px;
 }
+
+.contact-form-field {
+  display: flex;
+  margin-top: 3px;
+}
+
+.contact-form-field label {
+  font-size: 19px;
+  margin-left: 14px;
+  padding-bottom: 7px;
+}
