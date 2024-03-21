@@ -61,3 +61,8 @@
   font-weight: 700;
   font-size: 1.6rem;
 }
+
+.sessionSelect button {
+  margin-left: 100%;
+  margin-right: 100%;
+}
