@@ -23,7 +23,23 @@
 #navigation {
   text-align: center;
   border-top: 2px solid black;
-  padding-top: 12px;
+  padding: 12px 0 36px 0;
+}
+
+.sessionSelect {
+  display: inline-flex;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 31px;
+  margin: 0 10% 0 10%;
+  width: 80%;
+  background-color: rgb(241, 231, 218);
+}
+
+#nameField,
+#emailField,
+#phoneField {
+  border: black 1px solid;
 }
 
 .contact-form-field {
@@ -35,4 +51,13 @@
   font-size: 19px;
   margin-left: 14px;
   padding-bottom: 7px;
+}
+
+#questions {
+  margin-left: 33%;
+}
+
+#moreInfo p {
+  font-weight: 700;
+  font-size: 1.6rem;
 }
