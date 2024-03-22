@@ -42,6 +42,10 @@
   border: black 1px solid;
 }
 
+#reasonField {
+  padding: 12px 0 12px 0;
+}
+
 .contact-form-field {
   display: flex;
   margin-top: 3px;
